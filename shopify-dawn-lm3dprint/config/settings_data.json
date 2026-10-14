@@ -1,0 +1,129 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#08080D",
+    "colors_accent_1": "#00D9FF",
+    "colors_accent_2": "#FF00D4",
+    "colors_text": "#FFFFFF",
+    "colors_outline_button_labels": "#00D9FF",
+    "colors_background_1": "#08080D",
+    "colors_background_2": "#11111A",
+    "gradient_accent_1": "linear-gradient(135deg, #00D9FF 0%, #792BFF 50%, #FF00D4 100%)",
+    "gradient_accent_2": "linear-gradient(135deg, #FF00D4 0%, #792BFF 100%)",
+    "gradient_background_1": "linear-gradient(180deg, #08080D 0%, #11111A 100%)",
+    "gradient_background_2": "linear-gradient(180deg, #11111A 0%, #171722 100%)",
+    "color_schemes": {
+      "scheme-1": {
+        "color_scheme_id": "scheme-1",
+        "settings": {
+          "background": "#08080D",
+          "background_gradient": "",
+          "text": "#FFFFFF",
+          "button": "#00D9FF",
+          "button_label": "#08080D",
+          "secondary_button_label": "#00D9FF",
+          "shadow": "#000000"
+        }
+      },
+      "scheme-2": {
+        "color_scheme_id": "scheme-2",
+        "settings": {
+          "background": "#11111A",
+          "background_gradient": "",
+          "text": "#FFFFFF",
+          "button": "#FF00D4",
+          "button_label": "#FFFFFF",
+          "secondary_button_label": "#FF00D4",
+          "shadow": "#000000"
+        }
+      },
+      "scheme-3": {
+        "color_scheme_id": "scheme-3",
+        "settings": {
+          "background": "#171722",
+          "background_gradient": "",
+          "text": "#FFFFFF",
+          "button": "#00D9FF",
+          "button_label": "#08080D",
+          "secondary_button_label": "#00D9FF",
+          "shadow": "#000000"
+        }
+      },
+      "scheme-4": {
+        "color_scheme_id": "scheme-4",
+        "settings": {
+          "background": "#00D9FF",
+          "background_gradient": "linear-gradient(135deg, #00D9FF 0%, #792BFF 50%, #FF00D4 100%)",
+          "text": "#08080D",
+          "button": "#08080D",
+          "button_label": "#FFFFFF",
+          "secondary_button_label": "#08080D",
+          "shadow": "#000000"
+        }
+      },
+      "scheme-5": {
+        "color_scheme_id": "scheme-5",
+        "settings": {
+          "background": "#050508",
+          "background_gradient": "",
+          "text": "#B8B8C8",
+          "button": "#171722",
+          "button_label": "#FFFFFF",
+          "secondary_button_label": "#00D9FF",
+          "shadow": "#000000"
+        }
+      }
+    },
+    "type_header_font": "outfit_n8",
+    "heading_scale": 105,
+    "type_body_font": "assistant_n4",
+    "body_scale": 100,
+    "page_width": 1280,
+    "spacing_sections": 36,
+    "spacing_grid_horizontal": 24,
+    "spacing_grid_vertical": 24,
+    "buttons_border_thickness": 1,
+    "buttons_border_opacity": 20,
+    "buttons_radius": 8,
+    "buttons_shadow_opacity": 15,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 4,
+    "buttons_shadow_blur": 12,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 30,
+    "variant_pills_radius": 8,
+    "variant_pills_shadow_opacity": 0,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 35,
+    "inputs_radius": 8,
+    "inputs_shadow_opacity": 0,
+    "card_style": "card",
+    "card_image_padding": 0,
+    "card_text_alignment": "left",
+    "card_color_scheme": "scheme-2",
+    "card_border_thickness": 1,
+    "card_border_opacity": 25,
+    "card_corner_radius": 12,
+    "card_shadow_opacity": 10,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 8,
+    "card_shadow_blur": 20,
+    "collection_card_style": "card",
+    "collection_card_color_scheme": "scheme-2",
+    "collection_card_corner_radius": 12,
+    "badge_corner_radius": 6,
+    "sale_badge_color_scheme": "scheme-2",
+    "sold_out_badge_color_scheme": "scheme-5",
+    "cart_type": "drawer",
+    "show_cart_note": true,
+    "show_vendor": false,
+    "show_rating": false,
+    "currency_code_enabled": true,
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": true,
+    "social_instagram_link": "https://instagram.com/lm3dprintstore",
+    "social_tiktok_link": "https://tiktok.com/@lm3dprintstore",
+    "brand_headline": "L&M 3D Print Store",
+    "brand_description": "Unique designs. Bold colours. Made to stand out. Precision 3D printing studio in the UK."
+  }
+}

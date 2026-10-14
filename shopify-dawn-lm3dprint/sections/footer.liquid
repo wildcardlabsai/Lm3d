@@ -1,0 +1,170 @@
+{% comment %}
+  L&M 3D Print Store - Custom Footer for Dawn Theme
+{% endcomment %}
+{{ 'section-footer.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-social.css' | asset_url | stylesheet_tag }}
+
+<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding" style="background-color: #08080D; border-top: 1px solid #232334;">
+  {%- comment -%}Value Pillars Strip{%- endcomment -%}
+  <div style="border-bottom: 1px solid #232334; background: rgba(17, 17, 26, 0.4); padding: 2rem 0;">
+    <div class="page-width">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; align-items: center;">
+        <div style="display: flex; align-items: center; gap: 1.2rem;">
+          <div style="width: 40px; height: 40px; border-radius: 8px; background: #171722; border: 1px solid #232334; display: flex; align-items: center; justify-content: center; color: #00D9FF; font-weight: 800; font-size: 1.4rem;">
+            µm
+          </div>
+          <div>
+            <div style="font-size: 1.2rem; font-weight: 700; color: #FFFFFF; text-transform: uppercase;">0.16mm Layer Slicing</div>
+            <div style="font-size: 1.1rem; color: #B8B8C8;">High resolution surface detail</div>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 1.2rem;">
+          <div style="width: 40px; height: 40px; border-radius: 8px; background: #171722; border: 1px solid #232334; display: flex; align-items: center; justify-content: center; color: #FF00D4; font-weight: 800; font-size: 1.4rem;">
+            ✦
+          </div>
+          <div>
+            <div style="font-size: 1.2rem; font-weight: 700; color: #FFFFFF; text-transform: uppercase;">Dual-Tone Silk Filaments</div>
+            <div style="font-size: 1.1rem; color: #B8B8C8;">Premium iridescent finishes</div>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 1.2rem;">
+          <div style="width: 40px; height: 40px; border-radius: 8px; background: #171722; border: 1px solid #232334; display: flex; align-items: center; justify-content: center; color: #792BFF; font-weight: 800; font-size: 1.4rem;">
+            UK
+          </div>
+          <div>
+            <div style="font-size: 1.2rem; font-weight: 700; color: #FFFFFF; text-transform: uppercase;">UK Workshop Crafted</div>
+            <div style="font-size: 1.1rem; color: #B8B8C8;">Inspected and packed in Britain</div>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 1.2rem;">
+          <div style="width: 40px; height: 40px; border-radius: 8px; background: #171722; border: 1px solid #232334; display: flex; align-items: center; justify-content: center; color: #00D9FF; font-weight: 800; font-size: 1.4rem;">
+            ✓
+          </div>
+          <div>
+            <div style="font-size: 1.2rem; font-weight: 700; color: #FFFFFF; text-transform: uppercase;">Safe UK Delivery</div>
+            <div style="font-size: 1.1rem; color: #B8B8C8;">Protective bespoke packaging</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__content-top page-width" style="padding-top: 4rem; padding-bottom: 4rem;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem;">
+      {%- comment -%}Brand Overview{%- endcomment -%}
+      <div style="grid-column: span 1;">
+        <h2 style="font-size: 1.8rem; font-weight: 800; color: #FFFFFF; margin-bottom: 1rem;">
+          <span style="color: #00D9FF;">L</span>&amp;<span style="color: #FF00D4;">M</span> 3D PRINT STORE
+        </h2>
+        <p style="font-size: 1.2rem; color: #B8B8C8; line-height: 1.6; margin-bottom: 1.5rem;">
+          Independent UK studio specialising in precision multi-colour 3D printing, articulated collectibles, sculptural homeware, and original multi-layer designs.
+        </p>
+        <div style="font-size: 1.1rem; color: #B8B8C8;">
+          <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 0.3rem;">UK STUDIO ENQUIRIES</div>
+          <div>hello@lm3dprintstore.co.uk</div>
+          <div>Mon–Fri, 9:00am – 5:00pm GMT</div>
+        </div>
+      </div>
+
+      {%- for block in section.blocks -%}
+        <div class="footer-block" {{ block.shopify_attributes }}>
+          {%- if block.settings.heading != blank -%}
+            <h2 class="footer-block__heading" style="font-size: 1.3rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #FFFFFF; margin-bottom: 1.5rem;">
+              {{- block.settings.heading | escape -}}
+            </h2>
+          {%- endif -%}
+
+          {%- case block.type -%}
+            {%- when 'link_list' -%}
+              {%- if block.settings.menu != blank -%}
+                <ul class="footer-block__details-content list-unstyled" style="padding: 0; margin: 0; list-style: none;">
+                  {%- for link in block.settings.menu.links -%}
+                    <li style="margin-bottom: 0.8rem;">
+                      <a href="{{ link.url }}" class="link link--text" style="color: #B8B8C8; text-decoration: none; font-size: 1.2rem; transition: color 0.2s ease;">
+                        {{ link.title }}
+                      </a>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
+            {%- when 'text' -%}
+              <div class="footer-block__details-content rte" style="font-size: 1.2rem; color: #B8B8C8; line-height: 1.6;">
+                {{ block.settings.subtext }}
+              </div>
+          {%- endcase -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+
+  {%- comment -%}Bottom Bar{%- endcomment -%}
+  <div class="footer__content-bottom" style="border-top: 1px solid #232334; padding: 2rem 0; font-size: 1.1rem; color: #B8B8C8;">
+    <div class="page-width" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1.5rem;">
+      <div>
+        &copy; {{ 'now' | date: '%Y' }} L&amp;M 3D Print Store. Hand-finished in the UK.
+      </div>
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <span style="color: #00D9FF;">Prices displayed in GBP (£)</span>
+        <span>·</span>
+        <span>Powered by Shopify Online Store 2.0</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "blocks": [
+    {
+      "type": "link_list",
+      "name": "Menu",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Quick links",
+          "label": "Heading"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "default": "footer",
+          "label": "Menu"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "subtext",
+          "default": "<p>Share store details, promotions, or brand content with your customers.</p>",
+          "label": "Subtext"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    }
+  ]
+}
+{% endschema %}

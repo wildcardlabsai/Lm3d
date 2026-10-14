@@ -1,0 +1,58 @@
+import { Category } from '../types/store';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'pokemon-anime',
+    slug: 'pokemon-anime',
+    name: 'Pokémon & Anime',
+    tagline: 'Iconic creatures & legendary characters',
+    description: 'Original stylized character sculptures and anime-inspired desk companions printed with premium silk dual-extrusion filaments.',
+    image: '/src/assets/images/cat_pokemon_anime_1791920838647.jpg',
+    itemCount: 8,
+  },
+  {
+    id: 'halloween-horror',
+    slug: 'halloween-horror',
+    name: 'Halloween & Horror',
+    tagline: 'Spooky lanterns, skulls & dark decor',
+    description: 'Intricately carved skull planters, low-poly pumpkin lanterns, and eerie atmospheric pieces designed to bring dark fantasy to life.',
+    image: '/src/assets/images/cat_halloween_horror_1791920854453.jpg',
+    itemCount: 7,
+  },
+  {
+    id: 'multi-layer-prints',
+    slug: 'multi-layer-prints',
+    name: 'Multi-Layer Prints',
+    tagline: 'Illuminated shadowboxes & depth art',
+    description: 'Precision-sliced filament artwork layered with backlighting to create breathtaking dimensional landscapes and architectural silhouettes.',
+    image: '/src/assets/images/cat_multilayer_art_1791920917661.jpg',
+    itemCount: 6,
+  },
+  {
+    id: 'planters',
+    slug: 'planters',
+    name: 'Planters',
+    tagline: 'Architectural geometric botanical vessels',
+    description: 'Self-watering and faceted polygonal planters engineered for succulents, cacti, and indoor greenery with drainage reservoirs.',
+    image: '/src/assets/images/cat_modern_planters_1791920896014.jpg',
+    itemCount: 9,
+  },
+  {
+    id: 'flexis-fidgets',
+    slug: 'flexis-fidgets',
+    name: 'Flexis & Fidgets',
+    tagline: 'Articulated dragons, beasts & tactile toys',
+    description: 'Print-in-place articulated creatures with satisfying mechanical joints, iridescent shimmer, and stress-relieving tactile flex.',
+    image: '/src/assets/images/cat_flexis_fidgets_1791920876123.jpg',
+    itemCount: 12,
+  },
+  {
+    id: 'household-products',
+    slug: 'household-products',
+    name: 'Household & Living',
+    tagline: 'Clever desk organisation & modern decor',
+    description: 'Sleek headphone docks, modular honeycomb organizers, coaster sets, and functional homeware combining utility with modern aesthetics.',
+    image: '/src/assets/images/cat_household_decor_1791920943127.jpg',
+    itemCount: 10,
+  },
+];

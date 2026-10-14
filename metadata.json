@@ -1,0 +1,6 @@
+{
+  "name": "L&M 3D Print Store",
+  "description": "Premium e-commerce storefront for L&M 3D Print Store featuring unique 3D-printed collectibles, geometric planters, flexi figures, and homeware.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

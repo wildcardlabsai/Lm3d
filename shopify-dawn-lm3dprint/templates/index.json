@@ -1,0 +1,300 @@
+{
+  "sections": {
+    "announcement_bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Discover something different.",
+            "text_alignment": "center",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "announcement_2": {
+          "type": "announcement",
+          "settings": {
+            "text": "Unique 3D-printed designs · Made with care, one print at a time.",
+            "text_alignment": "center",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "announcement_3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free UK shipping on orders over £45",
+            "text_alignment": "center",
+            "color_scheme": "scheme-2"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_1",
+        "announcement_2",
+        "announcement_3"
+      ],
+      "settings": {
+        "auto_rotate": true,
+        "change_slides_speed": 5
+      }
+    },
+    "hero_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "PRINTED DIFFERENT.",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Unique designs. Bold colours. Made to stand out. Original 3D-printed collectibles, articulated figures, geometric planters and multi-layer artwork hand-finished in our UK studio.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP ALL PRODUCTS",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "EXPLORE COLLECTIONS",
+            "button_link_2": "shopify:\/\/collections",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "collection_list": {
+      "type": "collection-list",
+      "blocks": {
+        "cat_pokemon": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pokemon-anime"
+          }
+        },
+        "cat_halloween": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "halloween-horror"
+          }
+        },
+        "cat_multilayer": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "multi-layer-prints"
+          }
+        },
+        "cat_planters": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "planters"
+          }
+        },
+        "cat_flexis": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flexis-fidgets"
+          }
+        },
+        "cat_household": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "household-products"
+          }
+        }
+      },
+      "block_order": [
+        "cat_pokemon",
+        "cat_halloween",
+        "cat_multilayer",
+        "cat_planters",
+        "cat_flexis",
+        "cat_household"
+      ],
+      "settings": {
+        "title": "EXPLORE BY CATEGORY",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false
+      }
+    },
+    "best_sellers": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLERS",
+        "heading_size": "h1",
+        "description": "Our most popular customer favorites, printed in iridescent dual-tone silk filaments.",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false
+      }
+    },
+    "seasonal_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "SEASONAL SPOTLIGHT: HALLOWEEN & GOTHIC ARTIFACTS",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "From filigree carved skull planters with integrated drainage trays to glowing low-poly ghost tealights that cast geometric shadows. Explore our curated spooky season collection.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "EXPLORE SPOOKY COLLECTION",
+            "button_link_1": "shopify:\/\/collections\/halloween-horror",
+            "button_style_secondary_1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "mobile_content_alignment": "center"
+      }
+    },
+    "brand_story": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "text": "ABOUT L&M 3D PRINT STORE",
+            "text_style": "uppercase",
+            "text_size": "small"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "SMALL DETAILS. BIG PERSONALITY.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We started L&M 3D Print Store with a simple vision: to take 3D printing beyond grey prototypes and create vibrant, tactile objects you genuinely want to hold, display, and share. Whether it's a coiled crystal dragon that shimmers between cyan and magenta, a geometric succulent planter, or an illuminated multi-layer shadowbox, each design is individually inspected and carefully packaged right here in Britain.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "BROWSE THE COMPLETE CATALOG",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET THE NEXT DROP.",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know when new articulated flexis, limited multi-layer prints, or seasonal items come off the build plate. No spam, only genuine workshop drops.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "announcement_bar",
+    "hero_banner",
+    "collection_list",
+    "best_sellers",
+    "seasonal_banner",
+    "brand_story",
+    "newsletter"
+  ]
+}
